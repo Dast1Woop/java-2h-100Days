@@ -9,7 +9,21 @@ public class Person{
 	}
 
 	public static void main(String[] args) {
-		System.out.println("hello world!");
+		// System.out.println("hello world1!");
+
+		// boolean isPass = true;
+		// if (isPass) {
+		// 	System.out.println("pass");
+		// }else{
+		// 	System.out.println("not pass");
+		// }
+
+		int i = (int)1.9;
+		System.out.println("i=" + i);
+
+		int j = 100;
+		byte m = (byte)j;
+		System.out.println("m=" + m);		
 	}
 }
 
