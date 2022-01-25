@@ -42,7 +42,7 @@ public class IfElse {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("test");
+		System.out.println("test1");
 		
 //		while(true) {
 //			Scanner in = new Scanner(System.in);
@@ -53,13 +53,32 @@ public class IfElse {
 //		}
 		
 		//[0,1) -> [0,100) -> [1,100]
-		int desti = (int)(Math.random()*100 + 1);
-		int guessCount = guessNumCounts(desti);
-		System.out.println("guessCount=" + guessCount);
+		
+//		int desti = (int)(Math.random()*100 + 1);
+//		int guessCount = guessNumCounts(desti);
+//		System.out.println("guessCount=" + guessCount);
+		
+		double res = calculateAvg();
+		System.out.println("avg=" + res);
 	}
 	
 	
-	
+	static double calculateAvg() {
+		int sum = 0;
+		int count = 0;
+		
+		Scanner scan = new Scanner(System.in);
+		
+		while(true) {
+			int num = scan.nextInt();
+			if(num == -1) {
+				return 0 == count ? 0 : (double)sum/count;
+			}
+			
+			sum += num;
+			count += 1;
+		}
+	}
 	
 
 }
