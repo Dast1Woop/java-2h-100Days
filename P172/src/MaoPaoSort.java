@@ -12,6 +12,8 @@ public class MaoPaoSort {
 	static void maopaoSortm(int[] arr){
 		System.out.println("test");
 		
+		
+		///imp思路：化繁为简，总结规律！通过 5 位数组，列举步骤，分析问题，总结规律，形成最终代码。
 		int compareTimes = arr.length - 1;
 		for(int i = 0;i< compareTimes;i++) {
 			for(int j = 0;j< compareTimes  - i;j++) {
