@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="Lesson1/|WengKaiJava/src/|src/|P100/src/|WengKaiJava/Ch2/src/|P172/src/|P174/src/|21_09/src/|二维数组/src/|coding/src/" kind="src" path=""/>
+	<classpathentry kind="src" path="21_09/src"/>
+	<classpathentry kind="src" path="二维数组/src"/>
+	<classpathentry kind="src" path="coding/src"/>
+	<classpathentry kind="src" path="Lesson1"/>
+	<classpathentry kind="src" path="P100/src"/>
+	<classpathentry kind="src" path="P172/src"/>
+	<classpathentry kind="src" path="P174/src"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="WengKaiJava/Ch2/src"/>
+	<classpathentry kind="src" path="WengKaiJava/src"/>
+	<classpathentry kind="output" path="21_09/out/production/21_09"/>
+</classpath>
