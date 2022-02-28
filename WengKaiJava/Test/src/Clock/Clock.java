@@ -29,6 +29,7 @@ public class Clock {
 				hour.increase();
 			}
 			
+			//printf,c语言输出语法！！！
 			System.out.printf("%02d:%02d\n",hour.getValue(),minute.getValue());
 		}
 	}
